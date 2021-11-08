@@ -120,7 +120,7 @@ th {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 40px;
-    flex-grow: 1;
+    /* flex-grow: 1; */
 }
 .menu {
     background: url(../img/header_page/menu.svg);
@@ -318,17 +318,20 @@ th {
     flex-direction: column;
     justify-content: space-between;
 }
-.link_nav {
+.link_ul {
     display: block;
     color: white;
     padding-bottom: 20px;
 }
-.link_nav:last-child { 
+.link_ul:last-child { 
     padding-bottom: 0
 }
-.link_nav:hover {
+.link_ul:hover {
     text-decoration: underline;
     text-decoration-color: white;
+}
+ul {
+    list-style-type: none;
 }
 .arrow_footer {
     margin-left: 19.5px;
